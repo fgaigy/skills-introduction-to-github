@@ -1,4 +1,4 @@
-from math import cos
+from math import cos, sqrt
 
 def rightTriangleCheck(a, b, c):
 	if (a**2 + b**2 == c**2):
@@ -6,4 +6,4 @@ def rightTriangleCheck(a, b, c):
 	else: 
 		print("No it's not")
 
-rightTriangleCheck(2, 4, 5)
+rightTriangleCheck(6, 8, 10)
